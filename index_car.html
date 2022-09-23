@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img width="650px" src="../Pictures/1646217678_1-kartinkin-net-p-kartinki-ford-mustang-1.jpg" alt="Photo_of_Ford_Mustang">
+        <h1>Hillelcars</h1>
+        <h3>ПОИСК</h3>
+        <div>
+            <form action="https://fom.in.ua/echo" method="post">
+                <label for="wagon">Тип кузова</label>
+                <select id="wagon" name="wagon">
+                    <option>Седан</option>
+                    <option>Хетчбек</option>
+                    <option>Купе</option>
+                    <option>Универсал</option>
+                    <option>Внедорожник</option>
+                </select>
+                <button>Отправить</button>
+            </form>
+        </div>
+        <br>
+        <div>
+            <form action="https://fom.in.ua/echo" method="post">
+                <label for="made">Марка автомобиля</label>
+                <select id="made" name="made">
+                    <option>Toyota</option>
+                    <option>Nissan</option>
+                    <option>Ford</option>
+                    <option>BMW</option>
+                    <option>Pevgeot</option>
+                    <option>Mitsubishi</option>
+                    <option>Honda</option>
+                    <option>Chevrolet</option>
+                    <option>Mazda</option>
+                    <option>Lexus</option>
+                </select>
+                <button>Отправить</button>
+            </form>
+        </div>
+        <br>
+        <div>
+            <form action="https://fom.in.ua/echo" method="post">
+                <label for="producing_country">Страна призводитель</label>
+                <select id="producing_country" name="producing_country">
+                    <option value="jpn">Япония</option>
+                    <option value="ger">Германия</option>
+                    <option value="ita">Италия</option>
+                    <option value="fra">Франция</option>
+                </select>
+                <button>Отправить</button>
+            </form>
+        </div>
+        <h3>Год выпуска</h3>
+        <form action="https://fom.in.ua/echo" method="post">
+            <label for="year_of_made">Год выпуска от</label>
+            <input id="year_of_made" type="number" name="from" placeholder="От">
+            <label for="year_of_made_to">До</label>
+            <input id="year_of_made_to" type="number" name="to" placeholder="До">
+            <button>Отправить</button>
+        </form>
+        <h3>Цена</h3>
+        <form action="https://fom.in.ua/echo" method="post">
+            <label for="price_from">Цена от от</label>
+            <input id="price_from" type="number" name="from" placeholder="От">
+            <label for="price_to">До</label>
+            <input id="price_to" type="number" name="to" placeholder="До">
+            <button>Отправить</button>
+        </form>
+        <h3>Состояние</h3>
+        <form action="https://fom.in.ua/echo" method="post">
+            <label for="crashed">Битая</label>
+            <input id="crashed" type="checkbox" name="broken">
+            <label for="paint">Крашенная</label>
+            <input id="paint" type="checkbox" name="paint">
+            <label for="credit">В кредите</label>
+            <input id="credit" type="checkbox" name="credit">
+            <label for="uncleared">Нерастаможенная</label>
+            <input id="uncleared" type="checkbox" name="uncleared">
+            <button>Отправить</button>
+        </form>
+        <h3>Тип топлива</h3>
+        <form action="https://fom.in.ua/echo" method="post">
+            <label for="gasoline">Бензин</label>
+            <input id="gasoline" type="radio" name="fuel" value="fuel">
+            <label for="diesel">Дизель</label>
+            <input id="diesel" type="radio" name="fuel" value="diesel">
+            <label for="electro">Электро</label>
+            <input id="electro" type="radio" name="fuel" value="electro">
+            <label for="hybrid">Гибрид</label>
+            <input id="hybrid" type="radio" name="fuel" value="hybrid">
+            <label for="lpg">Газ</label>
+            <input id="lpg" type="radio" name="fuel" value="lpg">
+            <button>Отправить</button>
+        </form>
+        <h3>Трансмиссия</h3>
+        <form action="https://fom.in.ua/echo" method="post">
+            <label for="auto">Автомат</label>
+            <input id="auto" type="checkbox" name="auto">
+            <label for="variator">Вариатор</label>
+            <input id="variator" type="checkbox" name="variator">
+            <label for="manual">Механическая</label>
+            <input id="manual" type="checkbox" name="manual">
+            <button>Отправить</button>
+        </form>
+        <h3>Цвет</h3>
+    
+        <form action="https://fom.in.ua/echo" method="post">
+            <label for="yellow">Желтый</label>
+            <input id="yellow" type="radio" name="colour" value="yellow">
+            <label for="green">Зеленый</label>
+            <input id="green" type="radio" name="colour" value="green">
+            <label for="black">Черный</label>
+            <input id="black" type="radio" name="colour" value="black">
+            <label for="red">Красный</label>
+            <input id="red" type="radio" name="colour" value="red">
+            <label for="blue">Синий</label>
+            <input id="blue" type="radio" name="colour" value="blue">
+            <label for="white">Белый</label>
+            <input id="white" type="radio" name="colour" value="white">
+            <button>Отправить</button>
+        </form>
+        <h3>Комфорт</h3>
+        <form action="https://fom.in.ua/echo" method="post">
+            <label for="window_tint">Тонировка</label>
+            <input id="window_tint" type="checkbox" name="window_tint">
+            <label for="a_c">Кондиционер</label>
+            <input id="a_c" type="checkbox" name="a_c">
+            <label for="multimedia">Мультимедиа</label>
+            <input id="multimedia" type="checkbox" name="multimedia">
+            <button>Отправить</button>
+        </form>
+</body>
+</html>
